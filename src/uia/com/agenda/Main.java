@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Hola, iniciando la agenda, buena suerte");
 
         Agenda agenda = new Agenda();
-        agenda.agregaEvento("Fernando, Cita, 7-09-2022, 6-09-2022, Guadalupe");
+        agenda = Menu.agregarEvento(agenda);
     }
 }
